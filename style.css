@@ -1,0 +1,42 @@
+body {
+    color: darkorange;
+    background-image: url(background.jpg);
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+#pump{
+    display: flex;
+    padding-left: 600px;
+}
+header {
+    background-image: linear-gradient(#FF7300 #7F4F26);
+    height: 150px;
+    line-height: 150px;
+}
+
+header a{
+    color: darkorange;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+header-title { 
+    display: block;
+    float: right;
+    font-weight: bold;
+}
+#headernav {
+    display: inline;
+    padding-left: 0px;
+    position: absolute;
+    left: 600px;
+}
+#headernav li{
+    display: inline;
+    padding-left: 20px;
+}
+
